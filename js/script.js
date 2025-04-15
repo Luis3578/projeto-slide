@@ -10,6 +10,7 @@ const mudarConteudo = (type) => {
     const listItem = document.querySelectorAll('.list-item')
     const thumbItem = document.querySelectorAll('.thumb-item')
 
+
     if (type === 'next') {
         list.appendChild(listItem[0])
         thumb.appendChild(thumbItem[0])
